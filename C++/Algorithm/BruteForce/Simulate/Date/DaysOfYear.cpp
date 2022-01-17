@@ -11,14 +11,7 @@
 using namespace std;
 
 int judge_year(int year){
-    int r=0;
-    if ((year%4 == 0 && year %100 !=0) || year%400 == 0){
-        r = 1;
-    }
-    else{
-        r = 0;
-    }
-    return r;
+    return ((year%4 == 0 && year %100 !=0) || year%400 == 0);
 }
 
 int main(){
