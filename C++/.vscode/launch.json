@@ -10,7 +10,7 @@
             "type": "cppdbg",
             "request": "launch",
             //"program": "${fileDirname}/Bin/${fileBasenameNoExtension}",
-            "program": "/Data/Code/VSCode/C++/Bin/${fileBasenameNoExtension}",
+            "program": "/SData/Code/VSCode/C++/Bin/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
